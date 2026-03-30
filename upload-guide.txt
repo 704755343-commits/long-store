@@ -1,0 +1,44 @@
+========================================
+上传 src 和 public 文件夹到 GitHub
+========================================
+
+步骤1：打开 GitHub 仓库
+访问: https://github.com/704755343-commits/long-store
+
+步骤2：点击 Upload files
+点击绿色按钮 "Add file" 然后选择 "Upload files"
+
+步骤3：上传文件夹
+
+需要上传的内容：
+--------------
+在 C:\Users\86176\pfhao-store 文件夹下：
+
+1. 上传 src 文件夹
+   - 进入 src 文件夹
+   - 全选里面的所有文件和文件夹
+   - 拖到 GitHub 网页上
+
+2. 上传 public 文件夹
+   - 进入 public 文件夹
+   - 全选里面的所有文件
+   - 拖到 GitHub 网页上
+
+3. 上传根目录文件
+   - package.json
+   - package-lock.json
+   - tsconfig.json
+   - next.config.ts
+   - postcss.config.mjs
+   - eslint.config.mjs
+   - .gitignore
+
+步骤4：提交
+- 填写 commit message: "add all project files"
+- 点击 "Commit changes"
+
+步骤5：部署到 Vercel
+- 打开 https://vercel.com
+- 点击 "New Project"
+- 选择 long-store
+- 点击 Deploy
